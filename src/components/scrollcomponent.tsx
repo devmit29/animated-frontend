@@ -8,10 +8,10 @@ import { Button } from "./ui/button";
 const ScrollComponent = () => {
   return (
     <>
-      <div className="relative flex flex-col h-[120vh] w-full animate-scroll will-change-scroll">
+      <div className="relative flex flex-col h-[120vh] w-full animate-scroll min-[1800px]:animate-scroll2xl will-change-scroll">
         <div className="min-h-screen w-full relative">
           <Header />
-          <div className="flex justify-center px-4 mt-40 sm:mt-0 sm:px-6 lg:px-8">
+          <div className="flex justify-center px-4 mt-32 sm:mt-0 sm:px-6 lg:px-8">
             <div
               className="h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 mt-20 sm:mt-32 md:mt-40 animate-enlargeCircle"
               style={{
@@ -41,8 +41,8 @@ const ScrollComponent = () => {
               />
             </div>
           </div>
-          <div className="absolute inset-0 flex items-center justify-center text-center animate-fadein scale-0 w-full flex-col gap-4 px-4 mb-4 sm:px-6 lg:px-8 z-20">
-            <h1 className="text-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold mb-4 max-w-[90%] sm:max-w-[80%] lg:max-w-[70%]">
+          <div className="absolute inset-0 flex items-center justify-center text-center animate-fadein scale-0 mb-40 w-full flex-col gap-4 px-4 sm:px-6 lg:px-8 z-20">
+            <h1 className="text-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:max-w-[80%] font-semibold">
               The Ultimate Companion for Hydration
             </h1>
             <div className="w-full flex justify-center flex-col items-center">
@@ -54,7 +54,7 @@ const ScrollComponent = () => {
               </p>
             </div>
           </div>
-          <div className="absolute mb-4 lg:mb-0 sm:bottom-52 2xl:bottom-56 flex items-center justify-center text-center animate-fadein scale-0 w-full z-20">
+          <div className="absolute lg:bottom-48 2xl:bottom-72 flex items-center justify-center text-center animate-fadein scale-0 w-full z-20">
             <Button
               variant="gradient"
               className="rounded-full text-xl font-normal py-6 px-8"

@@ -1,5 +1,5 @@
-import { transform } from "next/dist/build/swc/generated-native";
 import type { Config } from "tailwindcss";
+
 
 export default {
     darkMode: ["class"],
@@ -16,6 +16,7 @@ export default {
 			enlargeCircle: 'enlargeCircle 6s 2s forwards',
 			enlarge: 'enlarge 6s 2s forwards',
 			scroll: 'scroll 4s 5s forwards',
+			scroll2xl: 'scroll2xl 4s 5s forwards',
 			scroll2: 'scroll2 4s 5s forwards',
 			fadein: 'fadein 5.5s 2s forwards',
 		},
@@ -134,6 +135,17 @@ export default {
 				},
 				'100%': {
 					transform: 'translateY(-865px)',
+				}
+			},
+			scroll2xl: {
+				'0%': {
+					transform: 'translateY(0)',
+				},
+				'40%': {
+					transform: 'translateY(-0px)',
+				},
+				'100%': {
+					transform: 'translateY(-965px)',
 				}
 			},
 			scroll2: {

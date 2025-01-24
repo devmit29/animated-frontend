@@ -48,8 +48,10 @@ const Products = () => {
             </div>
             <div className="flex flex-wrap justify-between gap-y-8 w-full mt-8">
                 {products.map((product, index) => (
-                    <div key={index} className="flex flex-col items-center max-w-[420px] sm:w-1/2 lg:w-1/3 p-4">
-                        <Image src={product.image} alt={product.name} className="rounded-xl" />
+                    <div key={index} className="flex flex-col items-center sm:w-1/2 lg:w-1/3 p-4">
+                        <div className="flex justify-startr w-full">
+                            <Image src={product.image} alt={product.name} className="rounded-xl" />
+                        </div>
                         <div className="flex justify-start w-full">
                             <p className="text-lg font-bold mt-4">{product.name}</p>
                         </div>
