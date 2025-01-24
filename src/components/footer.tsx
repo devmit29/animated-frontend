@@ -13,28 +13,28 @@ const Footer = () => {
                 </div>
                 <nav className="flex justify-center md:justify-between items-center">
                     <ul className="flex flex-wrap justify-center md:justify-between items-center">
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Shop</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Contact us</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">About</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Journal</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Custom</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Shop</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Contact us</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">About</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Journal</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Custom</li>
                     </ul>
                 </nav>
             </div>
 
             <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-12 lg:px-24 gap-6 md:gap-0 my-6">
                 <div className="flex justify-center md:justify-start gap-x-4 items-center">
-                    <Image src={facebook} alt="facebook" width={28} height={28} className="w-[28px] md:w-[33px]" />
-                    <Image src={instagram} alt="instagram" width={28} height={28} className="w-[28px] md:w-[33px]" />
-                    <Image src={x} alt="x" width={28} height={28} className="w-[28px] md:w-[33px]" />
+                    <Image src={facebook} alt="facebook" width={28} height={28} className="w-[28px] cursor-pointer md:w-[33px]" />
+                    <Image src={instagram} alt="instagram" width={28} height={28} className="w-[28px] cursor-pointer md:w-[33px]" />
+                    <Image src={x} alt="x" width={28} height={28} className="w-[28px] cursor-pointer md:w-[33px]" />
                 </div>
                 <nav className="flex justify-center md:justify-between items-center">
                     <ul className="flex flex-wrap justify-center md:justify-between items-center">
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">FAQ's</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Returns</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Ordering</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Shipping</li>
-                        <li className="mx-2 md:mx-4 font-normal text-base md:text-lg lg:text-xl">Personalization Policies</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">FAQ's</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Returns</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Ordering</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Shipping</li>
+                        <li className="mx-2 md:mx-4 font-normal cursor-pointer text-base md:text-lg lg:text-xl">Personalization Policies</li>
                     </ul>
                 </nav>
             </div>
