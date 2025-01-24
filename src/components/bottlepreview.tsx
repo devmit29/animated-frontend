@@ -3,7 +3,7 @@ import vaccum from "@/assets/bottlepreview/vaccum.svg";
 import fridge from "@/assets/bottlepreview/fridge.svg";
 import borosil from "@/assets/bottlepreview/borosil.svg";
 import kettle from "@/assets/bottlepreview/kettle.svg";
-import bottle from "@/assets/bottlepreview/bottleImage.svg";
+import bottle from "@/assets/bottlepreview/bottleImage.png";
 
 const BottlePreview = () => {
     const products = [
@@ -15,7 +15,6 @@ const BottlePreview = () => {
 
     return (
         <div className="flex flex-row w-full">
-            {/* Bottle Image Section */}
             <div className="w-full lg:w-1/2 flex items-center justify-center bg-white">
                 <div className="relative w-full h-full min-h-screen">
                     <Image
@@ -28,8 +27,6 @@ const BottlePreview = () => {
                     />
                 </div>
             </div>
-
-            {/* Products List Section */}
             <div className="w-full lg:w-1/2 bg-[#20292C] min-h-screen flex justify-center items-center ">
                 <div className="flex justify-center items-center w-full h-full p-4 sm:p-8 md:p-16 lg:p-20">
                     <div className='flex flex-col gap-8 md:gap-12 lg:gap-16 w-3/4 max-w-2xl'>

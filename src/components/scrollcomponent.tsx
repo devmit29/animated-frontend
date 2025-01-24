@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Header from "./Header";
-import bottleleft from "../assets/bottleleft.svg";
-import bottleright from "../assets/bottleright.svg";
+import bottleleft from "../assets/bottleleft.png";
+import bottleright from "../assets/bottleright.png";
 import BottlePreview from "./bottlepreview";
 import { Button } from "./ui/button";
 
 const ScrollComponent = () => {
   return (
     <>
-      <div className="relative flex flex-col h-[120vh] w-full animate-scroll   will-change-scroll">
+      <div className="relative flex flex-col h-[120vh] w-full animate-scroll will-change-scroll">
         <div className="min-h-screen w-full relative">
           <Header />
           <div className="flex justify-center px-4 mt-40 sm:mt-0 sm:px-6 lg:px-8">
@@ -67,12 +67,14 @@ const ScrollComponent = () => {
             <Image
               src={bottleleft}
               alt="scroll"
-              className="absolute bottom-14 left-8 sm:left-16 md:left-24 animate-enlarge scale-0 w-24 sm:w-32 md:w-auto"
+              width={125}
+              height={125}
+              className="absolute bottom-14 left-8 sm:left-16 md:left-24 animate-enlarge scale-0"
             />
             <Image
               src={bottleright}
               alt="scroll"
-              className="absolute bottom-14 right-8 sm:right-16 md:right-24 animate-enlarge scale-0 w-24 sm:w-32 md:w-auto"
+              className="absolute bottom-14 right-8 sm:right-16 md:right-24 animate-enlarge scale-0"
             />
           </div>
         </div>

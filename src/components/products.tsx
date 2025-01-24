@@ -1,8 +1,8 @@
 import { Button } from "./ui/button";
-import rainbow from "@/assets/products/rainbow600.svg";
-import bigbull from "@/assets/products/bigbull1300.svg";
-import rio from "@/assets/products/rio650.svg";
-import rome from "@/assets/products/rome600.svg";
+import rainbow from "@/assets/products/rainbow600.png";
+import bigbull from "@/assets/products/bigbull1300.png";
+import rio from "@/assets/products/rio650.png";
+import rome from "@/assets/products/rome600.png";
 import Image from "next/image";
 
 const Products = () => {

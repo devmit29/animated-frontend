@@ -11,13 +11,13 @@ export default {
   theme: {
 	extend: {
 		animation: {
-			moveCapUp: 'moveCapUp 5.8s 2s forwards',
-			moveBottleDown: 'moveBottleDown 5.8s 2s forwards',
-			enlargeCircle: 'enlargeCircle 4.5s 2s forwards',
-			enlarge: 'enlarge 4.5s 2s forwards',
-			scroll: 'scroll 2.5s 5s forwards',
-			scroll2: 'scroll2 2.5s 5s forwards',
-			fadein: 'fadein 4s 2s forwards',
+			moveCapUp: 'moveCapUp 7s 2s forwards',
+			moveBottleDown: 'moveBottleDown 7s 2s forwards',
+			enlargeCircle: 'enlargeCircle 6s 2s forwards',
+			enlarge: 'enlarge 6s 2s forwards',
+			scroll: 'scroll 4s 5s forwards',
+			scroll2: 'scroll2 4s 5s forwards',
+			fadein: 'fadein 5.5s 2s forwards',
 		},
 		colors: {
 			background: 'hsl(var(--background))',
@@ -74,6 +74,9 @@ export default {
 				'50%': {
 					transform: 'translateY(-300px)',
 				},
+				'62.5%': {
+					transform: 'translateY(-300px)',
+				},
 				'100%': {
 					transform: 'translateY(-150px)',
 				}
@@ -85,6 +88,9 @@ export default {
 				'50%': {
 					transform: 'translateY(170px)'
 				},
+				'62.5%': {
+					transform: 'translateY(170px)'
+				},
 				'100%': {
 					transform: 'translateY(-150px)',
 				}
@@ -92,6 +98,9 @@ export default {
 			enlargeCircle: {
 				'0%': {
 					transform: 'scale(1)',
+				},
+				'50%': {
+					transform: 'scale(1.6)',
 				},
 				'100%': {
 					transform: 'scale(1.6)',
@@ -119,6 +128,9 @@ export default {
 			scroll: {
 				'0%': {
 					transform: 'translateY(0)',
+				},
+				'40%': {
+					transform: 'translateY(-0px)',
 				},
 				'100%': {
 					transform: 'translateY(-865px)',
